@@ -1,70 +1,66 @@
 body {
-    background-image: url("../images/beanstalk.png");
-    background-color: #ffffff;
-    width: 100%; 
+  background-image: url("../images/beanstalk.png");
+  background-color: #ffffff;
+  width: 100%; 
 }
 img {
-    width:250px;
-    height:200px;
+  width:250px;
+  height:200px;
 }
 p {
-    font-size: 25px;
-    margin: 25px 25px 25px 25px;
+  font-size: 25px;
+  margin: 25px 25px 25px 25px;
 }
 header {
-    background-color: #ffffff;
-    border-bottom: 1px solid #cccccc;
+  background-color: #ffffff;
+  border-bottom: 1px solid #cccccc;
 }
 .floatleft {
-    float: left;
-    margin-right: 25px;
+  float: left;
+  margin-right: 25px;
 }
 .container {
-    max-width: 960px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color:#ffffff;
-    padding: 25px 25px 25px 25px;
-    border: 5px solid #dddddd;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:#ffffff;
+  padding: 25px 25px 25px 25px;
+  border: 5px solid #dddddd;
 }
- 
+
 ul {
-  list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #cccccc;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li.name {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 25px;
-    text-decoration: none;
-    float: left;
-  }
-  
-   li a:hover:not(.active) {
-    background-color: #111;
-  }
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cccccc;
+}
 
-  .active {
-    background-color: #4CAF50;
-  }
+li {
+  float: right;
+}
 
-  .active {
-    background-color: #000099;
-  }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.name {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  float: left;
+}
+
+ li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
